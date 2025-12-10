@@ -1,0 +1,118 @@
+# ========================================================================
+# SECURITY TESTING FRAMEWORK - CRITICAL WARNINGS
+# ========================================================================
+#
+# ⚠️  DISCLAIMER - READ BEFORE USE:
+#
+# This repository contains security testing tools designed EXCLUSIVELY for
+# authorized penetration testing and security research. 
+#
+# LEGAL WARNINGS:
+# - Unauthorized use against systems you do not own is ILLEGAL
+# - May violate Computer Fraud and Abuse Act (CFAA) and similar laws worldwide
+# - Could result in criminal prosecution and civil liability
+# - Always obtain explicit written permission before testing
+#
+# ETHICAL REQUIREMENTS:
+# - Use ONLY on systems you own or have written authorization to test
+# - Never target production systems without proper approval
+# - Follow responsible disclosure practices for any findings
+# - Do not share or weaponize discovered vulnerabilities
+#
+# DATA PROTECTION:
+# - Never commit real credentials, API keys, or sensitive data
+# - Sanitize all test results before sharing
+# - Respect user privacy and data protection laws (GDPR, CCPA, etc.)
+#
+# By using this software, you acknowledge that you are solely responsible
+# for ensuring all testing is legal, authorized, and ethical.
+#
+# ========================================================================
+
+# Security Testing - Do not commit sensitive data
+.env
+*.log
+logs/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Reports with sensitive findings
+reports/*.json
+reports/*.html
+reports/vulnerabilities/
+reports/findings/
+
+# Keep report templates and examples
+!reports/README.md
+!reports/examples/
+
+# Screenshots and evidence
+evidence/
+screenshots/
+*.png
+*.jpg
+*.gif
+*.jpeg
+
+# Security tool outputs
+# Burp/ZAP session files
+*.burp
+*.zap
+*.zaproxy
+
+# SQLMap outputs
+sqlmap_output/
+*.sqlite
+
+# Test outputs
+test-results/
+test-reports/
+.pytest_cache/
+htmlcov/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# Credentials and secrets (NEVER commit)
+credentials.txt
+secrets.txt
+api_keys.txt
+tokens.txt
+.env.local
+.env.production
+
+# Snyk Security Extension - AI Rules (auto-generated)
+.github/instructions/snyk_rules.instructions.md

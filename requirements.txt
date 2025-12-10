@@ -1,0 +1,47 @@
+# Core Testing Framework
+pytest==7.4.3
+pytest-html==4.1.1
+pytest-xdist==3.5.0
+
+# HTTP Testing
+requests==2.31.0
+urllib3==2.1.0
+httpx==0.25.2
+
+# Web Automation & Testing
+selenium==4.16.0
+# playwright==1.40.0  # Removed: greenlet incompatible with Python 3.13
+beautifulsoup4==4.12.2
+lxml-html-clean==0.2.2  # Lighter alternative to lxml
+
+# Security Testing Tools
+python-owasp-zap-v2.4==0.0.21
+# Note: SQLMap should be installed separately via git or standalone
+# git clone --depth 1 https://github.com/sqlmapproject/sqlmap.git
+
+# Data Parsing & Analysis
+jinja2==3.1.2
+pyyaml==6.0.1
+python-dotenv==1.0.0
+
+# Reporting & Output
+colorama==0.4.6
+tabulate==0.9.0
+rich==13.7.0
+
+# Authentication & Session Management
+jwt==1.3.1
+pyjwt==2.8.0
+
+# Network Analysis
+scapy==2.5.0
+
+# WebSocket Testing (for client-side tests)
+websocket-client==1.7.0
+
+# Advanced HTTP Testing
+requests-toolbelt==1.0.0
+
+# Code Quality (for Snyk integration)
+bandit==1.7.5
+safety==2.3.5
