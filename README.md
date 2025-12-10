@@ -861,7 +861,7 @@ chmod +x run_tests.py
 
 ## 📚 Resources
 
-### OWASP Top 10 2021
+### OWASP Top 10 2025
 - **A01** - Broken Access Control
 - **A02** - Cryptographic Failures
 - **A03** - Injection
@@ -915,7 +915,7 @@ This software is provided for authorized security testing only. Unauthorized use
 ## 📞 Contact
 
 For security disclosures or questions:
-- **Email:** security@example.com
+- **Email:** icradleinnovations@gmail.com
 - **PGP Key:** [Available on request]
 
 ---
